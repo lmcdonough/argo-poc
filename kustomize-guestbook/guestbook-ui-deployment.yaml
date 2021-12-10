@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: docker.io/lmcdonough/argoproj-poc:0.1
+      - image: docker.io/lmcdonough/argoproj-poc:0.2
         name: guestbook-ui
         ports:
         - containerPort: 80
